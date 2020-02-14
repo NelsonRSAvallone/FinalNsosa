@@ -4,11 +4,17 @@ Profe: aca le dejo todo lo que instale:
 npm i bootstrap jquery popper.js ngx-spinner –S
 npm i firebase @angular/fire
 npm i font-awesome –S
-
+<br>
 al pedo le instale el firebase, pensaba hacerlo con un Login. Pero de seguro me lo iba a rebotar.
+ Otra cosa en el data-api.service.ts la ruta es 'http://localhost:9001/api/v1/personaprofe/'  le aviso por si no le trae nada.
 
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
