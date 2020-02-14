@@ -1,4 +1,17 @@
 # FinalNsosa
+Profe: aca le dejo todo lo que instale:
+
+npm i bootstrap jquery popper.js ngx-spinner –S
+npm i firebase @angular/fire
+npm i font-awesome –S
+
+al pedo le instale el firebase, pensaba hacerlo con un Login. Pero de seguro me lo iba a rebotar.
+
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
 
