@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FinalNsosa": {
+    "finalProg3": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/FinalNsosa",
+            "outputPath": "dist/finalProg3",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,10 +23,18 @@
               "src/favicon.ico",
               "src/assets"
             ],
+
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./node_modules/font-awesome/css/font-awesome.css",
+
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/popper.js/dist/umd/popper.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -63,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "FinalNsosa:build"
+            "browserTarget": "finalProg3:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "FinalNsosa:build:production"
+              "browserTarget": "finalProg3:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FinalNsosa:build"
+            "browserTarget": "finalProg3:build"
           }
         },
         "test": {
@@ -111,15 +119,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "FinalNsosa:serve"
+            "devServerTarget": "finalProg3:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "FinalNsosa:serve:production"
+              "devServerTarget": "finalProg3:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "FinalNsosa"
+  "defaultProject": "finalProg3"
 }
